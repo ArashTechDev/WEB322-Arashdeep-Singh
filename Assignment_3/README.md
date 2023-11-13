@@ -64,8 +64,11 @@ Ensure you have the following installed:
 - Best practices for routing and middleware in Express.
 
 ## Login Credentials
-- Username: admin
-- Password: admin123
+- Username: username
+- Password: password
+
+- Api Username: Mossie
+- Api password: password
 
 ## Data Source
 - Utilizes static JSON data for user and product information.
