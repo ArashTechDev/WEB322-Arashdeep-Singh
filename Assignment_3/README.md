@@ -1,31 +1,4 @@
-[4:32 p.m., 2023-11-13] Arashdeep Singh: # Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [Features](#features)
-- [Login Credentials](#login-credentials)
-- [Data Source](#data-source)
-
-## Prerequisites
-Ensure you have the following installed on your local machine:
-- Node.js
-- npm
-
-## Installation
-1. Clone this repository or download and extract the ZIP file.
-2. Navigate to the project directory.
-3. Install the required dependencies using npm:
-    bash
-    npm install express
-    npm install ejs
-    // could also use npm i--save-dev-nodemon, also make necessary changes in script to keep server refreshing)
-    
-
-## Running the Application
-1. Start the server using the following command:
-    bash
-    node serv…
-[4:36 p.m., 2023-11-13] Big CHOR: # Assignment Three: Cleanup, Refactoring & Adding REST Endpoints
+# Assignment Three: Cleanup, Refactoring & Adding REST Endpoints
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
