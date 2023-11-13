@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <br><br>
+<h2> <center>Our Valued Users!</center></h2><br><br>
+
+<!-- <div>
+  <pre><code>
+    <%= JSON.stringify(users, null,2) %>
+  </code></pre>
+</div>  -->
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% users.forEach(function(user){ %>
+      <tr onClick="gotoDetail('<%= user.id %>')">
+        <td><%= user.id %></td>
+        <td><%= user.firstName %></td>
+        <td><%= user.lastName %></td>
+        <td><%= user.email %></td>
+      </tr>
+    <% }); %>
+
+  </tbody>
+</table>
+
+<!-- <% users.forEach(function(user, idx){ %>
+    <div><%= user.firstName %></div>
+<% }); %> -->
+
+<script>
+function gotoDetail(id) {
+console.log(id);
+window.location.href = `/detail/${id}`
+}
+</script>
+
+</body>
+</html>

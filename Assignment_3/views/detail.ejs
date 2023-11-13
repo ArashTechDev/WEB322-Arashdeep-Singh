@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+    
+</head>
+<body><br><br>
+    <h1><center>About our friend,  <%= user.firstName%> ...</center><h1>
+<div>
+  <br>
+    
+    <h5>&nbsp;&nbsp;Our member #<%= user.id %></h5>
+    <h5>&nbsp;&nbsp;Carrying his house's name <%= user.lastName %></h5>
+    <h5>&nbsp;&nbsp;Always reachable at <%= user.email %></h5>
+    <h5>&nbsp;&nbsp;Born on the great date of <%= user.dob.split('T')[0] %></h5><br>
+    <h5>&nbsp;&nbsp;Working at the prestigious <%= user.company%></h5>
+    <h5>&nbsp;&nbsp;Never more than 10 digits away to help you: <%= user.phone
+        %></h5>
+
+
+    <br><br>
+  <center>  <button class="btn btn-primary" onclick="history.back()">Back</button></center>
+</div>
+</body>
+</html>
