@@ -24,10 +24,10 @@
 | - product data is moved under data folder                   | 5      | 5   |
 | Service Classes                                             |        |     |
 | - create a User Service for CRUD operations                 | 10     | 10  |
-| - create a Product Service for CRUD operations              | 10     | 10  |
+| - create a Product Service for CRUD operations              | 10     | 7   |
 | - create an AuthenticationService for simple authentication | 15     | 15  |
 
-## Total Score: [Total Score] / 100
+## Total Score: 97 / 100
 
 ### Comments:
 
