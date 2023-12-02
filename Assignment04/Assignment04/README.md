@@ -37,6 +37,16 @@ The server will start on port 1500. Access the API endpoints through `http://loc
 - `DELETE /api/orders/:id`: Deletes a single order and returns a success JSON object.
 - `POST /api/orders`: Adds an order to the orders array and returns the new order as JSON.
 
+## Service Classes
+- *Authentication Service*: Handles user authentication.
+- *Users Service*: Manages user-related operations.
+- *Products Service*: Manages product-related operations.
+- *Orders Service*: Manages order-related operations.
+
+## Code Quality
+- Adherence to clean code principles.
+- Well-organized and commented code.
+- Followed best practices for routing and middleware in Express.
 
 
 
