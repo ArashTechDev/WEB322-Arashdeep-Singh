@@ -22,6 +22,10 @@
 | delete product api                           | 10     | 10 |
 | product no longer in list                    | 10     | 10 |
 
-## Total Score: NA / 100
+## Total Score: 100 / 100
 
-Assuming you ran out of time.  Afraid I can't give you any points for this assignment.
+Excellent work!  Glad I saw your message.  I nearly had you down for a zero.
+
+For the record another repo was not required.  It worked great, but you could have juts
+put the code at the root of your repo.
+
